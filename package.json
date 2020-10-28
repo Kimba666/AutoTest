@@ -1,0 +1,23 @@
+{
+  "name": "autotest",
+  "version": "1.0.0",
+  "description": "test automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "zebra",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimba666/AutoTest.git"
+  },
+  "author": "Kimba666",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimba666/AutoTest/issues"
+  },
+  "homepage": "https://github.com/Kimba666/AutoTest#readme",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}
