@@ -6,8 +6,5 @@
   "viewportHeight": 900,
   "viewportWidth": 1600,
   "waitForAnimations": true,
-  "reporter": "reporters/custom.js",
-  "reporterOptions": {
-    "configFile": "reporter0pts.json"
-  }
+  "reporter": "mochawesome"
 }
