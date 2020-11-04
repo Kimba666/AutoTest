@@ -4,8 +4,10 @@
   "description": "test automation",
   "main": "index.js",
   "scripts": {
-    "test": "zebra",
-    "cypress:open": "cypress open"
+    "test": "cypress\\integration\\tests run",
+    "runtests": "npm run test",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "repository": {
     "type": "git",
