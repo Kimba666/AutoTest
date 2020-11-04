@@ -26,3 +26,7 @@ jobs:
         run: |
           npm cache clean -force
 
+  # Execute Test Suite
+      - id: run_test
+        run: |
+          npm run test
