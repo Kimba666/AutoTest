@@ -1,29 +1,27 @@
-name: TestSuite
+name: ActionLog
 on:
-  pull_request_review:
-    types: [submitted]
+  push:
     branches:
-      - development
+      - dev
     paths-ignore:
       - 'package.json'
       - 'CHANGELOG.md'
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-    #Checkout Repository
-job:
+  # Checkout Repo
+jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@master
-        if: github.event.review.state == 'approved'
         with:
           fetch-depth: '0'
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-    #Execute Test Suite
-    -id: run tests
-    run: |
-      npm run test
+  # Execute Test Suite
+      - id: run_test
+        run: |
+          npm run test
