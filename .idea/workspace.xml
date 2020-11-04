@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/TestSuite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/TestSuite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <workItem from="1603915140308" duration="5382000" />
       <workItem from="1603977339704" duration="1910000" />
       <workItem from="1603980911327" duration="76000" />
-      <workItem from="1604343712330" duration="32491000" />
+      <workItem from="1604343712330" duration="33525000" />
     </task>
     <servers />
   </component>

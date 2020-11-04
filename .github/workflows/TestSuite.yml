@@ -15,7 +15,7 @@ jobs:
           node-version: '12.x'
       - run: npm cache clean --force
       - run: npm install
-      - run: npm i mochawesome
+      - run: npm i junit
       - run: npm run build --if-present
       - run: npm run cypress:run --spec "cypress/integration/tests"
         env:
