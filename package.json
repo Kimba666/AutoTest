@@ -4,6 +4,11 @@
   "description": "test automation",
   "main": "index.js",
   "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "runtests": "npm run test",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cyt": "cypress run"
     "test": "zebra",
     "cypress:open": "cypress open"
   },
