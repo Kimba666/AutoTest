@@ -6,7 +6,7 @@
   "viewportHeight": 900,
   "viewportWidth": 1600,
   "waitForAnimations": true,
-  "reporter": "cypress-multi-reporters",
+  "reporter": "spec",
   "reporterOptions": {
     "configFile": "reporter0pts.json"
   }
