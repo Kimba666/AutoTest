@@ -1,4 +1,4 @@
-name: ActionLog
+name: TestSuite
 on:
   push:
     branches:
@@ -21,7 +21,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-  # Execute Test Suite
-      - id: run_test
+  # Sanitize environment
+      - id: clean
         run: |
-          npm run test
+          npm cache clean -force
+
