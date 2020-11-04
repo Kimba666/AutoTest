@@ -9,8 +9,6 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cyt": "cypress run"
-    "test": "zebra",
-    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
