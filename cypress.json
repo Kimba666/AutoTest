@@ -6,5 +6,8 @@
   "viewportHeight": 900,
   "viewportWidth": 1600,
   "waitForAnimations": true,
-  "reporter": "mochawesome"
+  "reporter": "mochawesome",
+  "reporterOptions": {
+
+  }
 }

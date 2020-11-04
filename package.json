@@ -21,5 +21,10 @@
   "homepage": "https://github.com/Kimba666/AutoTest#readme",
   "devDependencies": {
     "cypress": "^5.5.0"
+  },
+  "dependencies": {
+    "mocha": "^7.1.2",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.0.3"
   }
 }
