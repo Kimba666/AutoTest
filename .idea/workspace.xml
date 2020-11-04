@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="" />
+    <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/TestSuite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/TestSuite.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +53,7 @@
       <workItem from="1603915140308" duration="5382000" />
       <workItem from="1603977339704" duration="1910000" />
       <workItem from="1603980911327" duration="76000" />
-      <workItem from="1604343712330" duration="25850000" />
+      <workItem from="1604343712330" duration="26645000" />
     </task>
     <servers />
   </component>
