@@ -4,7 +4,7 @@
   "description": "test automation",
   "main": "index.js",
   "scripts": {
-    "test": "cypress\\integration\\tests\\cypress run",
+    "test": "cypress\\integration\\tests run",
     "runtests": "npm run test",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
