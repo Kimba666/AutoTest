@@ -20,4 +20,3 @@ jobs:
       - run: npm run cypress:run --spec "cypress/integration/tests"
         env:
           CI: true
-          KEY: ${{ TM4J_ACCESS_KEY }}
