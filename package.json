@@ -25,6 +25,7 @@
   "dependencies": {
     "mocha": "^7.1.2",
     "mochawesome": "^6.1.1",
-    "mochawesome-merge": "^4.0.3"
+    "mochawesome-merge": "^4.0.3",
+    "node-fetch": "^2.6.1"
   }
 }

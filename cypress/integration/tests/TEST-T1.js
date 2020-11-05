@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 describe('[TEST-T1]', () => {
 
     it('Automation for Jira [TEST-T1]', () => {
