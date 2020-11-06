@@ -1,13 +1,11 @@
-const fetch = require('node-fetch');
-
 describe('TEST-T1', () => {
 
-    it('TEST-R1', () => {
+    it('TEST-R1', options => {
 
         // Navigate to google
         cy.visit('https://www.google.com/')
 
-        // Click the search field, enter value, and press enter
+        // Click for Turkish Landscape
         cy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click()
             .type('Turkish Landscape')
             .should('have.value', 'Turkish Landscape')
