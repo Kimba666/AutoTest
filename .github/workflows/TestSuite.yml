@@ -1,6 +1,6 @@
 name: TestSuite
 on: [push]
-  branch: dev
+  branches: dev
 
 jobs:
   build:
