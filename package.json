@@ -9,7 +9,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "report:merge": "mochawesome-merge --reportDir cypress/results/json > cypress/results/mochawesome-bundle.json",
-    "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html"
+    "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html",
+    "jira-api-post": "node cypress/api/jira-api-put.js"
   },
   "repository": {
     "type": "git",

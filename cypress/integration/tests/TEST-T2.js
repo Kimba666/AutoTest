@@ -1,14 +1,14 @@
-describe('TEST-T1', () => {
+describe('TEST-T2', () => {
 
-    it('TEST-R1', options => {
+    it('TEST-R2', options => {
 
         // Navigate to google
         cy.visit('https://www.google.com/')
 
-        // Click for Turkish Landscape
+        // Search for Kittens
         cy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click()
-            .type('Turkish Landscape')
-            .should('have.value', 'Turkish Landscape')
+            .type('Kittens')
+            .should('have.value', 'Kittens')
             .type('{enter}')
 
         // Click on images

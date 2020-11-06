@@ -28,14 +28,14 @@
       "suites": [
         {
           "uuid": "de07a729-2ff8-4c34-8ca8-af9832fd922c",
-          "title": "[TEST-T1]",
+          "title": "TEST-T1",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Automation for Jira [TEST-T1]",
+              "title": "TEST-R1",
               "fullTitle": "[TEST-T1] Automation for Jira [TEST-T1]",
               "timedOut": null,
               "duration": 6338,
