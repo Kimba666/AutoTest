@@ -1,7 +1,7 @@
 name: TestSuite
 on: push
-branches:
-  - dev
+  branch:
+    - dev
 
 jobs:
   build:
