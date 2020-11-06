@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 1,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2020-11-05T17:47:49.121Z",
-    "end": "2020-11-05T17:47:57.267Z",
-    "duration": 8146,
+    "failures": 1,
+    "start": "2020-11-06T19:42:40.791Z",
+    "end": "2020-11-06T19:42:52.149Z",
+    "duration": 11358,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,49 +18,53 @@
   },
   "results": [
     {
-      "uuid": "a39ffe21-1d5c-4dba-9f24-3cb0264f67b8",
+      "uuid": "67f62345-e22d-40c5-815a-1334d22b270f",
       "title": "",
-      "fullFile": "cypress\\integration\\tests\\TEST-T1.js",
-      "file": "cypress\\integration\\tests\\TEST-T1.js",
+      "fullFile": "cypress\\integration\\tests\\TEST-T2.js",
+      "file": "cypress\\integration\\tests\\TEST-T2.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "de07a729-2ff8-4c34-8ca8-af9832fd922c",
-          "title": "TEST-T1",
+          "uuid": "ff1ebd54-ddd8-4c7c-963a-378faa70370c",
+          "title": "TEST-T2",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "TEST-R1",
-              "fullTitle": "[TEST-T1] Automation for Jira [TEST-T1]",
+              "title": "TEST-R2",
+              "fullTitle": "TEST-T2 TEST-R2",
               "timedOut": null,
-              "duration": 6338,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
+              "duration": 9571,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
               "context": null,
-              "code": "cy.visit('https://www.google.com/');\ncy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click().type('Turkish Landscape').should('have.value', 'Turkish Landscape').type('{enter}');\ncy.get('#hdtb-msb-vis > div:nth-child(2) > a').click();",
-              "err": {},
-              "uuid": "fea42592-6dc1-4a72-851e-3c7753e24bf4",
-              "parentUUID": "de07a729-2ff8-4c34-8ca8-af9832fd922c",
+              "code": "// Navigate to google\ncy.visit('https://www.google.com/'); // Search for Kittens\ncy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click().type('Kittens').should('have.value', 'Kittens').type('{enter}'); // Click on images\ncy.get('#hdtb-msb-vis > div:nth-child(2) > a').click();",
+              "err": {
+                "message": "CypressError: Timed out after `4000ms`. The `done()` callback was never invoked!",
+                "estack": "CypressError: Timed out after `4000ms`. The `done()` callback was never invoked!\n    at cypressErr (https://www.google.com/__cypress/runner/cypress_runner.js:172560:18)\n    at Object.errByPath (https://www.google.com/__cypress/runner/cypress_runner.js:172611:10)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:174224:29",
+                "diff": null
+              },
+              "uuid": "aef6c0e7-aea7-4021-af2e-6b05804fb1e5",
+              "parentUUID": "ff1ebd54-ddd8-4c7c-963a-378faa70370c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "fea42592-6dc1-4a72-851e-3c7753e24bf4"
+          "passes": [],
+          "failures": [
+            "aef6c0e7-aea7-4021-af2e-6b05804fb1e5"
           ],
-          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6338,
+          "duration": 9571,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -96,7 +100,7 @@
       "options": {
         "id": "default",
         "reportDir": "cypress/results/json",
-        "overwrite": false,
+        "overwrite": true,
         "html": false,
         "json": true
       },
