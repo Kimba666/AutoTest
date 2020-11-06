@@ -1,13 +1,9 @@
 const fetch = require("node-fetch");
-
 const cypressTestResult = require('../results/json/mochawesome.json')
-
-console.log(cypressTestResult.results[0].suites[0].title);
-
 const passOrFail = () => cypressTestResult.results[0].suites[0].tests[0].pass ? 'Pass' : 'Fail';
 
-console.log(passOrFail())
 
+    // Hit Jira TM4J endpoint with test results
 fetch('https://api.adaptavist.io/tm4j/v2/testexecutions', {
     method: 'POST',
     headers: {
@@ -20,4 +16,7 @@ fetch('https://api.adaptavist.io/tm4j/v2/testexecutions', {
         testCycleKey: cypressTestResult.results[0].suites[0].tests[0].title,
         statusName: passOrFail()
     })
+
+
+    // Report on success or error of the API request
 }).then(res => res.json()).then(data => console.log(data)).catch(error => console.log(error))
