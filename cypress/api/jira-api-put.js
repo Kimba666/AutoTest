@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const cypressTestResult = require('../results/json/mochawesome.json')
 const passOrFail = () => cypressTestResult.results[0].suites[0].tests[0].pass ? 'Pass' : 'Fail';
 
-
+    // Display Test name and result verdict
 console.log(cypressTestResult.results[0].suites[0].title);
 console.log(passOrFail())
 
