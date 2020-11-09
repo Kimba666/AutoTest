@@ -1,3 +1,13 @@
+Cypress.on('fail', (error, runnable) => {
+    debugger
+    throw error
+})
+
+it('calls the "fail" callback when this test fails', () => {
+    cy.get('element-that-does-not-exist')
+})
+
+
 describe('TEST-T2', () => {
 
     it('TEST-R2', () => {

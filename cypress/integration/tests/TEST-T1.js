@@ -1,3 +1,8 @@
+Cypress.on('fail', (error, runnable) => {
+    debugger
+    throw error
+})
+
 describe('TEST-T1', () => {
 
     it('TEST-R1', () => {

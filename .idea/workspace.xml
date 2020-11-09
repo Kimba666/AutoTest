@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/TEST-T1.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/tests/TEST-T1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/TEST-T2.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/tests/TEST-T2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,16 @@
       <recent name="C:\Users\jwester\Git_Jeff\AutoTest\cypress\integration\tests" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="jira-api-put.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cypress/api/jira-api-put.js" working-dir="$PROJECT_DIR$/cypress/api">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.jira-api-put.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +75,7 @@
       <workItem from="1604343712330" duration="33525000" />
       <workItem from="1604932561822" duration="2383000" />
       <workItem from="1604936445678" duration="337000" />
-      <workItem from="1604937749515" duration="1036000" />
+      <workItem from="1604937749515" duration="7520000" />
     </task>
     <servers />
   </component>
@@ -86,6 +98,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1020" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604939573317">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1020" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604939573317" />
     <state x="2927" y="279" key="FileChooserDialogImpl" timestamp="1604500248603">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
