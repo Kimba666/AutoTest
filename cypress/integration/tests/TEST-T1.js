@@ -3,6 +3,9 @@ Cypress.on('fail', (error) => {
     throw error
 })
 
+it('calls the "fail" callback when this test fails', () => {
+})
+
 describe('TEST-T1', () => {
 
     it('TEST-R1', () => {
