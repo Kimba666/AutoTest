@@ -1,4 +1,4 @@
-Cypress.on('fail', (error, runnable) => {
+Cypress.on('fail', (error) => {
     debugger
     throw error
 })
