@@ -23,7 +23,7 @@ jobs:
       - run: npm install
       - run: npm i node-fetch
       - run: npm run build --if-present
-      - run: npm run cypress:run --spec "cypress/integration/tests"
+      - run: npm run test
       - run: npm run jira-api-post
         env:
           CI: true
