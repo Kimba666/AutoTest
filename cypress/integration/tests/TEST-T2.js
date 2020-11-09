@@ -1,11 +1,3 @@
-Cypress.on('fail', (error) => {
-    debugger
-    throw error
-})
-
-it('calls the "fail" callback when this test fails', () => {
-})
-
 describe('TEST-T2', () => {
 
     it('TEST-R2', () => {
@@ -24,4 +16,3 @@ describe('TEST-T2', () => {
             .click()
         })
 })
-.then(res => res.json()).then(data => console.log(data)).catch(error => console.log(error))
