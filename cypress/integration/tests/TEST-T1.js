@@ -25,3 +25,4 @@ describe('TEST-T1', () => {
             .click()
     })
 })
+.then(res => res.json()).then(data => console.log(data)).catch(error => console.log(error))
