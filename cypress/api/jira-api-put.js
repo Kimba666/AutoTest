@@ -2,7 +2,7 @@ var glob = require("glob")
 const fetch = require("node-fetch");
 const cypressTestResult = require('../results/json/mochawesome.json')
 const passOrFail = () => cypressTestResult.results[0].suites[0].tests[0].pass ? 'Pass' : 'Fail';
-const files = glob.sync(path.join(__dirname, 'main-process/*.js'))
+const files = glob.sync(path.join(__dirname, 'cypress/results/tests/*.js'))
 files.forEach((file) => { require(file) })
 
 
