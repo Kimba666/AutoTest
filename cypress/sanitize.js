@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const directory = '../results/json';
+const directory = '..cypress/results/json';
 
 // Read test result directory and delete existing files
 fs.readdir(directory, (err, files) => {
