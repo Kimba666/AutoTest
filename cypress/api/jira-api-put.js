@@ -1,3 +1,4 @@
+var glob = require("glob")
 const files = glob.sync(path.join(__dirname, 'main-process/*.js'))
 files.forEach((file) => { require(file) })
 const fetch = require("node-fetch");
