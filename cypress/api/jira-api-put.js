@@ -1,13 +1,16 @@
 var glob = require("glob")
-const files = glob.sync(path.join(__dirname, 'main-process/*.js'))
-files.forEach((file) => { require(file) })
 const fetch = require("node-fetch");
 const cypressTestResult = require('../results/json/mochawesome.json')
 const passOrFail = () => cypressTestResult.results[0].suites[0].tests[0].pass ? 'Pass' : 'Fail';
+const files = glob.sync(path.join(__dirname, 'main-process/*.js'))
+files.forEach((file) => { require(file) })
+
+
 
     // Display Test name and result verdict
 console.log(cypressTestResult.results[0].suites[0].title);
 console.log(passOrFail())
+
 
 
     // Hit Jira TM4J API endpoint to update test execution
@@ -23,6 +26,8 @@ fetch('https://api.adaptavist.io/tm4j/v2/testexecutions', {
         testCycleKey: cypressTestResult.results[0].suites[0].tests[0].title,
         statusName: passOrFail()
     })
+
+
 
     // Log data or error post run
 }).then(res => res.json()).then(data => console.log(data)).catch(error => console.log(error))
