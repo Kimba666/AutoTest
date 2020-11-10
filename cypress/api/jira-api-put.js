@@ -12,7 +12,7 @@ fetch('https://api.adaptavist.io/tm4j/v2/testexecutions', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwY2E0Njk0OS04NGFjLTMyMzktYjVjOC05ZTE1NzNiMTVkNGUiLCJjb250ZXh0Ijp7ImJhc2VVcmwiOiJodHRwczpcL1wvdGVhbWdsb2JhbHJpc2suYXRsYXNzaWFuLm5ldCIsInVzZXIiOnsiYWNjb3VudElkIjoiNWQzYjRkNzkwZjQ3OGIwYzFiOGU2YjYxIn19LCJpc3MiOiJjb20ua2Fub2FoLnRlc3QtbWFuYWdlciIsImV4cCI6MTYzNjA2MTQ5NywiaWF0IjoxNjA0NTI1NDk3fQ.m0RPKzCRd28_t3QokE_IWC4Wh3mxQthYUE3sOyplTAY`
+        'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwY2E0Njk0OS04NGFjLTMyMzktYjVjOC05ZTE1NzNiMTVkNGUiLCJjb250ZXh0Ijp7ImJhc2VVcmwiOiJodHRwczpcL1wvdGVhbWdsb2JhbHJpc2suYXRsYXNzaWFuLm5ldCIsInVzZXIiOnsiYWNjb3VudElkIjoiNWQzYjRkNzkwZjQ3OGIwYzFiOGU2YjYxIn19LCJpc3MiOiJjb20ua2Fub2FoLnRlc3QtbWFuYWdlciIsImV4cCI6MTYzNjA2MTQ5NywiaWF0IjoxNjA0NTI1NDk3fQ.m0RPKzCRd28_t3QokE_IWC4Wh3mxQthYUE3sOyplTAY'
     },
     body: JSON.stringify({
         projectKey: 'TEST',

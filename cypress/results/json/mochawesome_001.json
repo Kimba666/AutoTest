@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-11-10T15:43:17.778Z",
-    "end": "2020-11-10T15:43:23.191Z",
-    "duration": 5413,
+    "start": "2020-11-10T15:44:03.056Z",
+    "end": "2020-11-10T15:44:09.858Z",
+    "duration": 6802,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,49 +18,49 @@
   },
   "results": [
     {
-      "uuid": "384fc508-ac86-47bd-aae2-948aff27c247",
+      "uuid": "1599ccb5-7ef3-4fc2-9b5b-e5b8011e1b47",
       "title": "",
-      "fullFile": "cypress\\integration\\tests\\TEST-T2.js",
-      "file": "cypress\\integration\\tests\\TEST-T2.js",
+      "fullFile": "cypress\\integration\\tests\\TEST-T1.js",
+      "file": "cypress\\integration\\tests\\TEST-T1.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "1fa7e3e4-35fe-4e6a-a5dd-c860939fe47e",
-          "title": "TEST-T2",
+          "uuid": "809d9d64-b4b9-4f86-91c6-90200e10b2ab",
+          "title": "TEST-T1",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "TEST-R2",
-              "fullTitle": "TEST-T2 TEST-R2",
+              "title": "TEST-R1",
+              "fullTitle": "TEST-T1 TEST-R1",
               "timedOut": null,
-              "duration": 4004,
+              "duration": 4986,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "// Navigate to google\ncy.visit('https://www.google.com/'); // Search for Kittens\ncy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click().type('Kittens').should('have.value', 'Kittens').type('{enter}'); // Click on images\ncy.get('#hdtb-msb-vis > div:nth-child(2) > a').should('contain', 'Images').click();",
+              "code": "// Navigate to google\ncy.visit('https://www.google.com/'); // Click for Turkish Landscape\ncy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click().type('Turkish Landscape').should('have.value', 'Turkish Landscape').type('{enter}'); // Click on images\ncy.get('#hdtb-msb-vis > div:nth-child(2) > a').should('contain', 'Images').click();",
               "err": {},
-              "uuid": "b471b0b0-1893-4788-ba59-a1b253497032",
-              "parentUUID": "1fa7e3e4-35fe-4e6a-a5dd-c860939fe47e",
+              "uuid": "77d45205-e09e-4fca-ad08-3994af02abb7",
+              "parentUUID": "809d9d64-b4b9-4f86-91c6-90200e10b2ab",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b471b0b0-1893-4788-ba59-a1b253497032"
+            "77d45205-e09e-4fca-ad08-3994af02abb7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4004,
+          "duration": 4986,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -96,7 +96,7 @@
       "options": {
         "id": "default",
         "reportDir": "cypress/results/json",
-        "overwrite": true,
+        "overwrite": false,
         "html": false,
         "json": true
       },
