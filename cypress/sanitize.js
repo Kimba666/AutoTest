@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const directory = '/cypress/results/json';
+const directory = 'AutoTest/cypress/results/json';
 
 // Read test result directory and delete existing files
 fs.readdir(directory, (err, files) => {
