@@ -32,6 +32,7 @@
     "mochawesome-report-generator": "^5.1.0"
   },
   "dependencies": {
+    "glob": "^7.1.6",
     "node-fetch": "^2.6.1"
   }
 }
