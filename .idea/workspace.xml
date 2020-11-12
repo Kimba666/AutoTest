@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/EXT-D1.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/tests/EXT-D1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/TEST-T1.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/testArchive/TEST-T1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/TEST-T2.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/testArchive/TEST-T2.js" afterDir="false" />
-    </list>
+    <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\CODE\AutoTest\cypress\integration\testArchive" />
       <recent name="C:\Users\jwester\Git_Jeff\AutoTest\cypress\integration\tests" />
     </key>
   </component>
@@ -100,7 +97,7 @@
       <workItem from="1604932561822" duration="2383000" />
       <workItem from="1604936445678" duration="337000" />
       <workItem from="1604937749515" duration="9953000" />
-      <workItem from="1605188167269" duration="5019000" />
+      <workItem from="1605188167269" duration="5674000" />
     </task>
     <servers />
   </component>
