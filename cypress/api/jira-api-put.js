@@ -1,5 +1,4 @@
 const glob = require("glob")
-const path = require('path')
 const fetch = require("node-fetch");
 const cypressTestResults = glob.sync('../results/json/*.json')
 console.log(cypressTestResults)
@@ -18,7 +17,7 @@ cypressTestResults.forEach((file) => {
             'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIwY2E0Njk0OS04NGFjLTMyMzktYjVjOC05ZTE1NzNiMTVkNGUiLCJjb250ZXh0Ijp7ImJhc2VVcmwiOiJodHRwczpcL1wvdGVhbWdsb2JhbHJpc2suYXRsYXNzaWFuLm5ldCIsInVzZXIiOnsiYWNjb3VudElkIjoiNWQzYjRkNzkwZjQ3OGIwYzFiOGU2YjYxIn19LCJpc3MiOiJjb20ua2Fub2FoLnRlc3QtbWFuYWdlciIsImV4cCI6MTYzNjA2MTQ5NywiaWF0IjoxNjA0NTI1NDk3fQ.m0RPKzCRd28_t3QokE_IWC4Wh3mxQthYUE3sOyplTAY'
         },
         body: JSON.stringify({
-            projectKey: 'TEST',
+            projectKey: 'EXT',
             testCaseKey: cypressTestResult.results[0].suites[0].title,
             testCycleKey: cypressTestResult.results[0].suites[0].tests[0].title,
             statusName: passOrFail(),

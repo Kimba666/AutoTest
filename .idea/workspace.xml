@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="206e7bed-ec8c-4078-81cc-00c6a46fdac2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/TEST-T1.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/tests/TEST-T1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/tests/TEST-T2.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/tests/TEST-T2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/integration/tests/EXT-D1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/api/jira-api-put.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/api/jira-api-put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/results/json/mochawesome.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/results/json/mochawesome_001.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +70,16 @@
       <recent name="C:\Users\jwester\Git_Jeff\AutoTest\cypress\integration\tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.sanitize.js">
     <configuration name="jira-api-put.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cypress/api/jira-api-put.js" working-dir="$PROJECT_DIR$/cypress/api">
+      <method v="2" />
+    </configuration>
+    <configuration name="sanitize.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cypress/sanitize.js" working-dir="$PROJECT_DIR$/cypress">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.sanitize.js" />
         <item itemvalue="Node.js.jira-api-put.js" />
       </list>
     </recent_temporary>
@@ -95,6 +102,7 @@
       <workItem from="1604932561822" duration="2383000" />
       <workItem from="1604936445678" duration="337000" />
       <workItem from="1604937749515" duration="9953000" />
+      <workItem from="1605188167269" duration="4087000" />
     </task>
     <servers />
   </component>
@@ -125,22 +133,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2927" y="279" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604500248603" />
-    <state width="1940" height="388" key="GridCell.Tab.0.bottom" timestamp="1604951224989">
+    <state width="1940" height="388" key="GridCell.Tab.0.bottom" timestamp="1604957604670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1940" height="388" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604951224989" />
-    <state width="1940" height="388" key="GridCell.Tab.0.center" timestamp="1604951224989">
+    <state width="1940" height="388" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604957604670" />
+    <state width="1940" height="388" key="GridCell.Tab.0.center" timestamp="1604957604670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1940" height="388" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604951224989" />
-    <state width="1940" height="388" key="GridCell.Tab.0.left" timestamp="1604951224989">
+    <state width="1940" height="388" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604957604670" />
+    <state width="1940" height="388" key="GridCell.Tab.0.left" timestamp="1604957604670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1940" height="388" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604951224989" />
-    <state width="1940" height="388" key="GridCell.Tab.0.right" timestamp="1604951224989">
+    <state width="1940" height="388" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604957604670" />
+    <state width="1940" height="388" key="GridCell.Tab.0.right" timestamp="1604957604670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1940" height="388" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604951224989" />
+    <state width="1940" height="388" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604957604670" />
     <state x="2870" y="181" width="936" height="839" key="find.popup" timestamp="1603916830004">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
