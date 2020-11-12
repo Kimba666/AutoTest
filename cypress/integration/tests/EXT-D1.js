@@ -13,7 +13,7 @@ describe('EXT-D1', () => {
 
         //Click on Images to view images
         cy.get('#hdtb-msb-vis > div:nth-child(2) > a')
-            .should('have.value', 'Images')
+            .should('contain', 'Images')
             .click()
     })
 })
