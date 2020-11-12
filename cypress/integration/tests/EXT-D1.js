@@ -1,6 +1,6 @@
-describe('EXT-D1', () => {
+describe('D1-T1', () => {
 
-    it('EXT-R1', () => {
+    it('D1-R1', () => {
 
         //Navigate to Google
         cy.visit('https://www.google.com/');
