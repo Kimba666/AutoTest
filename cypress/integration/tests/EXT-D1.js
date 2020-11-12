@@ -3,7 +3,7 @@ describe('EXT-D1', () => {
     it('EXT-R1', () => {
 
         //Navigate to Google
-        cy.get('https://www.google.com/');
+        cy.visit('https://www.google.com/');
 
         //Click search field and enter value
         cy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click()
