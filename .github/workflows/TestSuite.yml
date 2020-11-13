@@ -28,8 +28,8 @@ jobs:
       - run: npm install
       - run: npm i node-fetch
       - run: npm run build --if-present
-      - run: npm i mochawesome
-      - run: npm run cypress:run --headed --browser chrome --spec "cypress/integration/tests"
+      - run: npm install --save-dev mochawesome
+      - run: npm run cypress:run --headed --browser chrome --spec --reporter mochawesome "cypress/integration/tests"
       - run: npm run jira-api-post
         env:
           CI: true
