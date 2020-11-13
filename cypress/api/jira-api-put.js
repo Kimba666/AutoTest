@@ -1,6 +1,6 @@
-const glob = require("glob")
+const glob = require("glob");
 const fetch = require("node-fetch");
-const cypressTestResults = glob.sync('../results/json/*.json')
+const cypressTestResults = glob.sync('/home/runner/work/AutoTest/AutoTest/cypress/results/json*.json');
 console.log(cypressTestResults)
 cypressTestResults.forEach((file) => {
     const cypressTestResult = require(file)
