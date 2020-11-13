@@ -1,9 +1,9 @@
-describe('EXT-D1', () => {
+describe('D1-T1', () => {
 
-    it('EXT-R1', () => {
+    it('D1-R1', () => {
 
         //Navigate to Google
-        cy.get('https://www.google.com/');
+        cy.visit('https://www.google.com/');
 
         //Click search field and enter value
         cy.get('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input').click()
@@ -13,7 +13,7 @@ describe('EXT-D1', () => {
 
         //Click on Images to view images
         cy.get('#hdtb-msb-vis > div:nth-child(2) > a')
-            .should('have.value', 'Images')
+            .should('contain', 'Images')
             .click()
     })
 })
